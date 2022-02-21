@@ -1,18 +1,19 @@
-import React, { Component } from 'react'
+import React, { Component, Link } from 'react'
 import MyNavbar from './Comps/MyNavbar'
-
 import '../App.css';
+import ThreeComp from './Comps/ThreeComp.jsx'
 export default class HomeView extends Component {
     render() {
         return (
-            <div className='fill-window'>
+            <div className='homeView'>
 
              <MyNavbar />
              
               <div className='center-all'>
-                <h1 >fullSTACK</h1>
                 <div>
-                <br></br>
+
+                <ThreeComp />
+                
                </div>
              </div>
             </div>
