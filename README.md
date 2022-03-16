@@ -1,5 +1,7 @@
 NOTES:
-open the shell and type "npm run dev"
+open the shell and type the following commands
+"npm install"
+"npm run dev"
 
 
 ToDo's below:
